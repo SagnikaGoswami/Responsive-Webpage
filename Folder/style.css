@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    border: 2px solid red;
+    width: 80%;
+    margin: auto;
+}
+
+html{
+    /* background-color: pink; */
+}
+
+nav .nav-logo i{
+    font-size: 1.5rem;
+}
+
+nav .nav-logo span{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+nav .nav-logo span:hover{
+    cursor: pointer;
+}
+
+#one{
+    
+    color: rgb(255, 85, 0);
+}
+#two{
+    color: orange;
+}

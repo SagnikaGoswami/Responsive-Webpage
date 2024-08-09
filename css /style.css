@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    height: 65px;
+    background-color: white;
+    color: #0f1111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav-logo */
+.nav-logo {
+    height: 60px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.color-1 {
+    color: black;
+}
+
+.color-2 {
+    color: orange;
+    font-weight: 500;
+}
+
+.type-writer {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: orange;
+}
+
+/*nav-sign-in*/
+.nav-sign-in {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.nav-sign-in-one {
+    font-size: 0.9rem;
+    color: #0f1111;
+}
+
+.nav-sign-in-two {
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+
+    color: orange;
+}
+
+.nav-sign-in-combined {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid orange;
+    cursor: pointer;
+}
+
+.border2 {
+    border: 1.5px solid transparent;
+}
+
+.border2:hover {
+    border: 1.5px solid black;
+}
+
+/* panel */
+.panel {
+    height: 40px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+
+.panel-one {
+    margin-left: 20px;
+    width: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.panel-one p {
+    margin-left: 2px;
+}
+
+.panel-one-all {
+    width: 100%;
+    background-color: orange;
+    color: black;
+    border: none;
+}
+
+.panel-two {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.panel-two div {
+    height: 40px;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px 0 8px;
+}
+
+.panel-three {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}
+
+.panel-height {
+    height: 40px;
+}
+
+.career {
+    height: 40px;
+
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 20px 0;
+}
+
+
+.shopping-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e2e7e6;
+}
+
+.Box {
+    height: 433px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    margin: 20px 0 0 0;
+    padding: 0 21px;
+}
+
+.Box h2 {
+    margin: 20px 0 10px 0;
+    color: orange;
+
+}
+
+.Box a {
+
+    font-size: 0.82rem;
+    text-decoration: none;
+    color: #007185;
+}
+
+.Box1 a {
+    font-size: 0.82rem;
+    text-decoration: none;
+    color: #007185;
+}
+
+.username {
+    margin: 10px;
+}
+
+.submit {
+    height: 25px;
+    width: 80px;
+    margin-top: 10px;
+    background-color: rgb(110, 110, 234);
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.white-space {
+    height: 20px;
+    width: 100%;
+    background-color: #e2e6e7;
+
+}
+
+
+/*footer*/
+footer {
+    width: 100%;
+}
+
+.foot-bar-one {
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 0.85rem;
+    font-weight: bolder;
+}
+
+.foot-bar-two {
+
+    background-color: white;
+    color: orange;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 150px;
+}
+
+ul a {
+    display: block;
+    text-decoration: none;
+    color: orange;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+ul p {
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+
+.footer-web-logo {
+    height: 70px;
+    background-color: white;
+    border-top: 0.1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
