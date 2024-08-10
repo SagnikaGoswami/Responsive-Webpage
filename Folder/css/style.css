@@ -165,7 +165,8 @@ nav .login span:hover{
 
 body main{
     padding-top: 50px;
-    height: 800px;
+    /* height: 800px; */
+    height: calc(100vh - 12vh);
     width: 100%;
     border: 2px solid purple;
     background-color: var(--main-color);
@@ -194,7 +195,9 @@ main .text{
     border: 2px solid blue;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+
+    display: flex;
 
     
 }
