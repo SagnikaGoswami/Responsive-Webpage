@@ -23,11 +23,10 @@ input{
     display: inline-block;
 }
 
-/* body{
-    border: 2px solid red;
-    width: 80%;
-    margin: auto;
-} */
+body{
+    height: 100%;
+    width: 100%;
+}
 
 html{
     /* background-color: pink; */
@@ -152,3 +151,17 @@ nav .login span{
     color: var(--main-color);
 }
 
+
+/* main */
+
+body main{
+    height: calc(100% - 12vh);
+    width: 100%;
+    border: 2px solid red;
+}
+
+main .food-image{
+    height: 50%;
+    width: 50%;
+    border: 2px solid red;
+}
