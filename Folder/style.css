@@ -19,6 +19,8 @@ i:hover{
     cursor: pointer;
 }
 
+
+
 /* body{
     border: 2px solid red;
     width: 80%;
@@ -120,4 +122,7 @@ nav .location i{
 
 nav .food-search-bar{
     border: 2px solid green;
+    height: 100%;
+    width: 25%;
+    padding: 8px 25px;
 }
