@@ -218,7 +218,8 @@ main .address .box1 .inside-box{
     border: 2px solid red;
     margin-left: 25px;
     background-color: white;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -236,5 +237,15 @@ main .address .box1 .delivery span{
 main .address .box1 .inside-box i{
     color: rgb(255, 85, 0);
     font-size: 1.8rem;
+    padding-left: 10px;
+}
+
+main .address .box1 .pickup{
+    color: black;
+    padding-left: 10px;
+}
+
+main .address .box1 .pickup i{
+    color: black;
     padding-left: 10px;
 }
