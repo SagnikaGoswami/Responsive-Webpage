@@ -117,3 +117,7 @@ nav .location i{
 
 
 /* Search-Food */
+
+nav .food-search-bar{
+    border: 2px solid green;
+}
