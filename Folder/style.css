@@ -19,7 +19,9 @@ i:hover{
     cursor: pointer;
 }
 
-
+input{
+    display: inline-block;
+}
 
 /* body{
     border: 2px solid red;
@@ -124,5 +126,8 @@ nav .food-search-bar{
     border: 2px solid green;
     height: 100%;
     width: 25%;
+}
+
+nav .food-search-bar input{
     padding: 8px 25px;
 }
