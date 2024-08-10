@@ -116,24 +116,39 @@ nav .location{
     height: 100%;
     width: 100%;
     font-size: 1rem;
-    padding-left: 30px;
+    padding-left: 35px;
 }
 
 
 
 /* Search-Food */
 
-nav .food-search-bar{
-    border: 2px solid green;
-    /* height: 100%; */
-    width: 25%;
+nav .search-food{
+    width: 20%;
+}
+
+nav .search-food .search-bar-two{
+    width: 100%;
+}
+
+nav .search-food .search-bar-two input{
+    padding-left: 40px;
+}
+
+
+/* User Login */
+
+nav .login{
+    height: 50%;
+    width: 8%;
+    border: 2px solid black;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-nav .food-search-bar input{
-    padding: 8px 25px;
+nav .login span{
+    font-weight: bolder;
+    color: var(--main-color);
 }
-
-
 
