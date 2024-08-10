@@ -21,6 +21,11 @@ i:hover{
 
 input{
     display: inline-block;
+    /* border-radius: 10px; */
+}
+
+nav input{
+    /* border-radius: 5px; */
 }
 
 body{
@@ -49,6 +54,7 @@ nav .nav-logo{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    justify-content: center;
 }
 
 nav .nav-logo #logo-text{
@@ -57,13 +63,13 @@ nav .nav-logo #logo-text{
 }
 
 nav .nav-logo i{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     color: var(--main-color);
 }
 
 nav .nav-logo span{
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 nav .nav-logo span:hover{
@@ -97,7 +103,7 @@ nav .location{
 
 .location .search-bar-one{
     position: relative;
-    border: 2px solid red;
+    border: 2px solid green;
     height: 50%;
     width: 80%;
     display: flex;
@@ -151,6 +157,9 @@ nav .login span{
     color: var(--main-color);
 }
 
+nav .login span:hover{
+    cursor: pointer;
+}
 
 /* main */
 
@@ -186,6 +195,8 @@ main .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    
 }
 
 main h1{
@@ -198,9 +209,16 @@ main h2{
 }
 
 main .address{
-    height: 60%;
+    height: 30%;
     width: 100%;
     border: 2px solid black;
+    background-color: white;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 main .address .box1{
@@ -228,6 +246,7 @@ main .address .box1 .inside-box{
 main .address .box1 .delivery{
     background-color: rgb(244, 205, 186);
     color: rgb(255, 85, 0);
+    margin-left: 0;
 }
 
 main .address .box1 .delivery span{
@@ -256,32 +275,69 @@ main .address .box1 .pickup span{
     font-size: .9rem;
 }
 
+main .address .box1 .inside-box span:hover{
+    cursor: pointer;
+}
+
+main .location{
+    height: 12vh;
+    width: 40%;
+    border: 2px solid white;
+}
+
+
 @media screen and (max-width: 1842px)
 {
     main .text{
         height: 100%;
-        width: 50%;
+        width: 55%;
         border: 2px solid blue;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
+    main .address .box1{
+        height: 35%;
+    }
+
+    nav .location .search-bar-one{
+        height: 65%;
+    }
+
     main .address .box1 .inside-box{
-        height: 60%;
         width: 25%;
-        border: 2px solid red;
-        margin-left: 25px;
-        background-color: white;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+    }
+
+    main .location{
+        height: 9vh;
+        width: 100%;
+        border: 2px solid white;
+        color: white;
+
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        justify-content: flex-start;
     }
-    
-    main .address .box1 .delivery{
-        background-color: rgb(244, 205, 186);
-        color: rgb(255, 85, 0);
+
+    main .location #btn{
+        height: 100%;
+        width: 25%;
+        border: 2px solid blue;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+
+        background-color: rgb(255, 85, 0);
+        border-radius: 5px;
     }
+
+    main .location .search-bar-one{
+        width: 70%;
+        height: 100%;
+        border-radius: 10px;
+    }
+
 }
