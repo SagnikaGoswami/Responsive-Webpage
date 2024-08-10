@@ -1,9 +1,22 @@
 
+:root{
+    --main-color: orange;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: poppins;
+}
+
+i{
+    color: var(--main-color);
+    /* font-size: 1.8rem; */
+}
+
+i:hover{
+    cursor: pointer;
 }
 
 /* body{
@@ -42,7 +55,7 @@ nav .nav-logo #logo-text{
 
 nav .nav-logo i{
     font-size: 1.8rem;
-    color: orange;
+    color: var(--main-color);
 }
 
 nav .nav-logo span{
@@ -59,5 +72,48 @@ nav .nav-logo span:hover{
     color: rgb(255, 85, 0);
 }
 #two{
-    color: orange;
+    color: var(--main-color);
 }
+
+
+/* Delivery Location */
+
+nav .location{
+    height: 100%;
+    width: 33%;
+    border: 2px solid purple;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav .location span{
+    font-weight: bolder;
+    font-size: .9rem;
+}
+
+nav .location .search-bar{
+    height: 100%;
+    width: 75%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .location .search-bar input{
+    /* height: 100%; */
+    width: 100%;
+    padding: 8px 25px;
+    font-size: 1rem;
+}
+
+nav .location i{
+    font-size: 1.2rem;
+    position: absolute;
+    /* left: 0; */
+    padding-left: 5px;
+}
+
+
+/* Search-Food */
