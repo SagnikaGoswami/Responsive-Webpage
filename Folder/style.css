@@ -79,45 +79,46 @@ nav .nav-logo span:hover{
     color: var(--main-color);
 }
 
-
 /* Delivery Location */
 
 nav .location{
-    height: 100%;
-    width: 33%;
-    border: 2px solid purple;
+    height: 12vh;
+    width: 35%;
+    border: 2px solid red;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-nav .location span{
+.location span{
+    border: 2px solid black;
     font-weight: bolder;
     font-size: .9rem;
 }
 
-nav .location .search-bar{
-    height: 100%;
-    width: 75%;
+.location .search-bar-one{
+    position: relative;
     border: 2px solid red;
+    height: 50%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav .location .search-bar input{
-    /* height: 100%; */
-    width: 100%;
-    padding: 8px 25px;
-    font-size: 1rem;
-}
-
-nav .location i{
+.location .search-bar-one i{
     font-size: 1.2rem;
     position: absolute;
-    /* left: 0; */
-    padding-left: 5px;
+    left: 10px;
 }
+
+.location .search-bar-one input{
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    padding-left: 30px;
+}
+
 
 
 /* Search-Food */
@@ -136,42 +137,3 @@ nav .food-search-bar input{
 
 
 
-/* main */
-
-.container{
-    height: 12vh;
-    width: 30%;
-    border: 2px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.container span{
-    border: 2px solid black;
-    font-weight: bolder;
-    font-size: .9rem;
-}
-
-.container .search-bar-one{
-    position: relative;
-    border: 2px solid red;
-    height: 50%;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.container .search-bar-one i{
-    font-size: 1.2rem;
-    position: absolute;
-    left: 10px;
-}
-
-.container .search-bar-one input{
-    height: 100%;
-    width: 100%;
-    font-size: 1rem;
-    padding-left: 30px;
-}
