@@ -2,9 +2,13 @@ nav{
     /* background-color: black; */
 }
 
+body, html{
+    width: 100%;
+}
 
 nav{
     /* background-color: pink; */
+    width: 100%;
     justify-content: space-between;
     /* padding: 0 37px; */
 }
