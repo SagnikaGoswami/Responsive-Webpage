@@ -1,41 +1,51 @@
-/* NAV-BAR */
-nav{
-    width: 100%;
+/* nav{
+    justify-content: center;
+    border: 2px solid blue;
 }
 
-/* NAV-LOGO */
-nav .nav-logo{
-    /* border: 2px solid green; */
+
+nav .location{
+    position: relative;
+    left: 67px;
+    width: 44%;
+} */
+
+
+/* nav .location .search-bar-two i{
+    display: none;
 }
-nav .nav-logo i{
+
+nav .location .search-bar-two input{
+    display: none;
+} */
+
+
+/* NAV-BAR */
+/* nav{
+    width: 100%;
+} */
+
+/* NAV-LOGO */
+
+/* nav .nav-logo i{
     font-size: 2rem;
-    /* border: 2px solid blue; */
 }
 nav .nav-logo span{
     font-size: 1.4rem;
-}
+} */
 
 
 /* LOCATION SEARCH-BAR */
-nav .location{
-    height: 12vh;
-    width: 35%;
-    /* border: 2px solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-nav .location span{
-    /* border: 2px solid black; */
+
+/* nav .location span{
     font-weight: bolder;
     font-size: .7rem;
 }
 nav .location .search-bar-one{
     position: relative;
-    /* border: 2px solid green; */
     height: 60%;
-    width: 81%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,11 +64,11 @@ nav .location .search-bar-two{
 
 nav .search-food{
     width: 20%;
-}
+} */
 
 
 /* USER LOGIN */
-nav .login{
+/* nav .login{
     width: 10%;
 }
 
@@ -68,6 +78,6 @@ main .address .search-bar-one{
 }
 
 
-main .address #btn{
+#btn{
     height: 87%;
-}
+} */
