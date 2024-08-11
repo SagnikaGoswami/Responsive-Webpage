@@ -59,10 +59,12 @@ main .address{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
+    align-items: center;
     margin-top: 0;
 
     padding: 10px 15px;
+
+   
 }
 
 main .address .box1 .inside-box{

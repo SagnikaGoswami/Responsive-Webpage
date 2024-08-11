@@ -6,11 +6,16 @@ nav{
 nav{
     /* background-color: pink; */
     justify-content: space-between;
-    padding: 0 97px;
+    /* padding: 0 37px; */
+}
+
+nav .nav-logo{
+    margin-left: 20%;
 }
 
 nav .login{
-    width: 15%;
+    width: 30%;
+    margin-right: 7%;
 }
 
 nav .location {
@@ -35,12 +40,16 @@ body main{
     padding: 0;
 }
 
+main .address{
+    background-color: pink;
+
+}
+
 main .food-image{
     /* display: none; */
-    height: 100vh;
-    width: 52vh;
-    height: 50vh;
-    width: 50vh;
+    height: 35vh;
+    width: 35vh;
+    margin-top: 25px;
 }
 
 main .food-image img{
@@ -55,13 +64,16 @@ main .container{
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    height: 30%;
+    /* border: 2px solid yellow; */
+    margin-top: 12px;
 }
 
 main .address{
     height: 80%;
     width: 50%;
     /* border: 2px solid black; */
-    /* background-color: white; */
+    background-color: white;
 
     border-radius: 10px;
 
@@ -114,11 +126,11 @@ main .container .heading{
 
 main h1{
     color: white;
-    font-size: 1.1em;
+    font-size: 2em;
 }
 
 main h2{
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 main .location #btn{
@@ -141,15 +153,30 @@ main .address hr{
 
 main .address .location{
     flex-direction: column;
+    justify-content: center;
+}
+main .address .location #btn{
+    width: 60%;
+    /* background-color: blue; */
+    padding: 8px 12px;
+    font-size: .8rem;
+    margin-top: 15px;
+}
+
+main .address .location input{
+    font-size: .8rem;
+    padding: 4px 12px;
+    padding-left: 30px;
 }
 
 main .address .location .search-bar-one{
     width: 100%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 
 main .location #btn{
     width: 50%;
-    padding: 20px 10px;
+    padding: 20px 5px;
 }
+
