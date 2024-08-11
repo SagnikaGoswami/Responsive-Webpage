@@ -1,92 +1,84 @@
-
-:root{
+/* CSS VARIABLES */
+:root {
     --main-color: orange;
 }
 
-*{
+/* BASIC RESET */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: poppins;
 }
 
-i{
+/* ICONS */
+i {
     color: var(--main-color);
-    /* font-size: 1.8rem; */
 }
 
-i:hover{
+i:hover {
     cursor: pointer;
 }
 
-input{
+/* INPUT */
+input {
     display: inline-block;
-    /* border-radius: 10px; */
 }
 
-nav input{
-    /* border-radius: 5px; */
-}
-
-body{
+body {
     height: 100%;
     width: 100%;
 }
 
-html{
-    /* background-color: pink; */
-}
-
-nav{
+/* NAV-BAR */
+nav {
     height: 12vh;
     width: 100%;
-    /* border: 2px solid green; */
     margin: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-nav .nav-logo{
+/* NAV-LOGO */
+nav .nav-logo {
     height: 100%;
     width: 20%;
-    /* border: 2px solid blue; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     justify-content: center;
 }
 
-nav .nav-logo #logo-text{
+nav .nav-logo #logo-text {
     display: flex;
-    /* border: 2px solid black; */
 }
 
-nav .nav-logo i{
+nav .nav-logo i {
     font-size: 2.5rem;
     color: var(--main-color);
 }
 
-nav .nav-logo span{
+nav .nav-logo span {
     font-weight: bolder;
     font-size: 1.8rem;
 }
 
-nav .nav-logo span:hover{
+nav .nav-logo span:hover {
     cursor: pointer;
 }
 
-#one{
-    
+#one {
+
     color: rgb(255, 85, 0);
 }
-#two{
+
+#two {
     color: var(--main-color);
 }
 
-/* Delivery Location */
-
-nav .location{
+/* DELIVERY LOCATION */
+nav .location {
     height: 12vh;
     width: 35%;
     /* border: 2px solid red; */
@@ -95,13 +87,13 @@ nav .location{
     justify-content: space-between;
 }
 
-.location span{
+.location span {
     /* border: 2px solid black; */
     font-weight: bolder;
     font-size: .9rem;
 }
 
-.location .search-bar-one{
+.location .search-bar-one {
     position: relative;
     /* border: 2px solid green; */
     height: 50%;
@@ -111,39 +103,34 @@ nav .location{
     align-items: center;
 }
 
-.location .search-bar-one i{
+.location .search-bar-one i {
     font-size: 1.2rem;
     position: absolute;
     left: 10px;
 }
 
-.location .search-bar-one input{
+.location .search-bar-one input {
     height: 100%;
     width: 100%;
     font-size: 1rem;
     padding-left: 35px;
 }
 
-
-
-/* Search-Food */
-
-nav .search-food{
+/* SEARCH-FOOD */
+nav .search-food {
     width: 20%;
 }
 
-nav .search-food .search-bar-two{
+nav .search-food .search-bar-two {
     width: 100%;
 }
 
-nav .search-food .search-bar-two input{
+nav .search-food .search-bar-two input {
     padding-left: 40px;
 }
 
-
-/* User Login */
-
-nav .login{
+/* USER LOGIN */
+nav .login {
     height: 60%;
     width: 8%;
     /* border: 2px solid black; */
@@ -155,18 +142,17 @@ nav .login{
     background-color: rgb(255, 228, 189);
 }
 
-nav .login span{
+nav .login span {
     font-weight: bolder;
     color: var(--main-color);
 }
 
-nav .login span:hover{
+nav .login span:hover {
     cursor: pointer;
 }
 
 /* main */
-
-body main{
+body main {
     padding-top: 45px;
     /* height: 800px; */
     height: calc(100vh - 12vh);
@@ -178,74 +164,58 @@ body main{
     justify-content: space-evenly;
 }
 
-/* main .container{
 
-} */
-
-main .food-image{
+main .food-image {
     height: 77vh;
     width: 77vh;
     /* border: 2px solid red; */
     border-radius: 50%;
 }
 
-main .food-image img{
+main .food-image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
 }
 
-main .text{
+main .text {
     height: 100%;
     width: 30%;
-    /* border: 2px solid blue; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
-    /* border: 2px solid yellow; */
     justify-content: flex-start;
-    /* background-color: white; */
-    
 }
 
-main h1{
+main h1 {
     color: white;
     font-size: 3em;
 }
 
-main h2{
+main h2 {
     font-size: 1.8rem;
 }
 
-main .address{
+main .address {
     height: 50%;
     width: 100%;
-    /* border: 2px solid black; */
     background-color: white;
-
     border-radius: 10px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
     margin-top: 25px;
 }
 
-main .address .box1{
+main .address .box1 {
     width: 100%;
     height: 20%;
-    /* border: 2px solid blue; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
 
-main .address .box1 .inside-box{
+main .address .box1 .inside-box {
     height: 60%;
     width: 35%;
-    /* border: 2px solid red; */
     margin-left: 25px;
     background-color: white;
     border-top-left-radius: 5px;
@@ -255,28 +225,28 @@ main .address .box1 .inside-box{
     justify-content: flex-start;
 }
 
-main .address .box1 .inside-box:hover{
+main .address .box1 .inside-box:hover {
     cursor: pointer;
 }
 
-main .address .box1 .delivery{
+main .address .box1 .delivery {
     background-color: rgb(244, 205, 186);
     color: rgb(255, 85, 0);
     margin-left: 0;
 }
 
-main .address .box1 .delivery span{
+main .address .box1 .delivery span {
     padding-left: 10px;
     font-size: .75rem;
 }
 
-main .address .box1 .inside-box i{
+main .address .box1 .inside-box i {
     color: rgb(255, 85, 0);
     font-size: 1.2rem;
     padding-left: 10px;
 }
 
-main .address .box1 .pickup{
+main .address .box1 .pickup {
     color: black;
     padding-left: 10px;
 
@@ -284,12 +254,12 @@ main .address .box1 .pickup{
     border-bottom: .5px solid #999;
 }
 
-main .address .box1 .pickup i{
+main .address .box1 .pickup i {
     color: #555252;
     padding-left: 10px;
 }
 
-main .address .box1 .pickup span{
+main .address .box1 .pickup span {
     padding-left: 10px;
     font-size: .75rem;
     color: #999;
@@ -298,85 +268,66 @@ main .address .box1 .pickup span{
 
 
 
-main .location{
+main .location {
     height: 12vh;
     width: 40%;
-    /* border: 2px solid white; */
 }
 
-#btn:hover{
+#btn:hover {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1842px)
-{
-    main .container{
+@media screen and (max-width: 1842px) {
+    main .container {
         height: 100%;
         width: 55%;
-        /* border: 2px solid blue; */
     }
 
-    main .container .heading{
-        /* border: 2px solid yellow; */
-    }
-
-    main .address{
+    main .address {
         padding: 25px 25px;
     }
 
-    /* main .food-image{
-        position: relative;
-        top: 16px;
-    } */
-
-    main .food-image img{
+    main .food-image img {
         height: 100%;
         width: 100%;
         object-fit: cover;
         border-radius: 50%;
-
-        /* margin-top: 6px; */
     }
 
-    main .address .box1{
+    main .address .box1 {
         height: 31%;
     }
 
-    nav .location .search-bar-one{
+    nav .location .search-bar-one {
         height: 65%;
     }
 
-    main .address .box1 .inside-box{
+    main .address .box1 .inside-box {
         width: 25%;
         height: 100%;
     }
 
-    main .location{
+    main .location {
         height: 9vh;
         width: 100%;
-        /* border: 2px solid white; */
         color: white;
-
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    main .location #btn{
+    main .location #btn {
         height: 100%;
         width: 25%;
-        /* border: 2px solid blue; */
-
         display: flex;
         justify-content: center;
         align-items: center;
         font-weight: bolder;
-
         background-color: rgb(255, 85, 0);
         border-radius: 5px;
     }
 
-    main .location .search-bar-one{
+    main .location .search-bar-one {
         width: 70%;
         height: 100%;
         border-radius: 10px;
@@ -384,12 +335,8 @@ main .location{
 
 }
 
-
-@media screen and (max-width: 1437px)
-{
-    main .address .box1{
+@media screen and (max-width: 1437px) {
+    main .address .box1 {
         height: 31%;
     }
 }
-
-
