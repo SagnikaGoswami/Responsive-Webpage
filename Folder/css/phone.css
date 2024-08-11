@@ -1,7 +1,72 @@
 nav{
-    background-color: pink;
+    /* background-color: pink; */
 }
 
-main{
-    /* flex-direction: column; */
+nav .location {
+    display: none;
 }
+
+nav .location .search-bar-two i{
+    display: none;
+}
+
+nav .location .search-bar-two input{
+    display: none;
+}
+
+body main{
+    /* background-image: url("assets/food.jpg"); */
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid blue; */
+    padding-top: 0;
+}
+
+main .food-image{
+    /* display: none; */
+    height: 100vh;
+    width: 52vh;
+}
+
+main .food-image img{
+    /* display: none; */
+}
+
+main .container{
+    display: flex;
+    /* border: 2px solid white; */
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .address{
+    height: 80%;
+    width: 50%;
+    /* border: 2px solid black; */
+    /* background-color: white; */
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin-top: 0;
+}
+
+main .container .heading{
+    /* border: 2px solid green; */
+    width: 45%;
+}
+
+main h1{
+    color: white;
+    font-size: 2.2em;
+}
+
+main h2{
+    font-size: 1.3rem;
+}
+
