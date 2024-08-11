@@ -2,27 +2,15 @@
     box-sizing: border-box;
 }
 
-
-nav{
-    /* background-color: pink; */
-    /* height: 13vh; */
-}
-
 /* FOOD-IMAGE */
 main .food-image{
     height: 15vh;
     width: 15vh;
-    /* border: 2px solid red; */
     border-radius: 50%;
-}
-
-main{
-    /* height: calc(100vh - 13vh); */
 }
 
 main h1{
     font-size: 2.2em;
-    /* color: white; */
 }
 
 main h2{
@@ -32,7 +20,6 @@ main h2{
 main .container{
     width: 53%;
     height: 100%;
-    /* border: 2px solid white; */
 }
 
 main .address #btn{
@@ -42,15 +29,11 @@ main .address #btn{
 main .address{
     height: 45%;
     width: 100%;
-    /* border: 2px solid black; */
     background-color: white;
-
     border-radius: 10px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
     margin-top: 25px;
 }
 

@@ -4,36 +4,28 @@ nav{
 }
 
 /* NAV-LOGO */
-nav .nav-logo{
-    /* border: 2px solid green; */
-}
 nav .nav-logo i{
     font-size: 2rem;
-    /* border: 2px solid blue; */
 }
 nav .nav-logo span{
     font-size: 1.4rem;
 }
 
-
 /* LOCATION SEARCH-BAR */
 nav .location{
     height: 12vh;
     width: 35%;
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 nav .location span{
-    /* border: 2px solid black; */
     font-weight: bolder;
     font-size: .7rem;
 }
 nav .location .search-bar-one{
     position: relative;
-    /* border: 2px solid green; */
     height: 60%;
     width: 81%;
     display: flex;
