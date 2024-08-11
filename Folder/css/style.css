@@ -267,12 +267,12 @@ main .address .box1 .delivery{
 
 main .address .box1 .delivery span{
     padding-left: 10px;
-    font-size: .7rem;
+    font-size: .75rem;
 }
 
 main .address .box1 .inside-box i{
     color: rgb(255, 85, 0);
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-left: 10px;
 }
 
@@ -291,7 +291,7 @@ main .address .box1 .pickup i{
 
 main .address .box1 .pickup span{
     padding-left: 10px;
-    font-size: .7rem;
+    font-size: .75rem;
     color: #999;
     color: #555252;
 }
@@ -338,17 +338,8 @@ main .location{
         /* margin-top: 6px; */
     }
 
-
-
-
-
-
-
-
-    
-
     main .address .box1{
-        height: 35%;
+        height: 31%;
     }
 
     nav .location .search-bar-one{
@@ -392,3 +383,12 @@ main .location{
     }
 
 }
+
+
+@media screen and (max-width: 1437px)
+{
+    main .address .box1{
+        height: 31%;
+    }
+}
+
